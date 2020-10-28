@@ -1,0 +1,21 @@
+
+<style>img {
+    width: 200px;
+  }</style>
+<div>
+    <h1>This is a trial for first set of questions and options</a></h1>
+</div>
+    {% for question in question %}
+   
+    <div>
+      {{ question.question}} 
+        {% endfor %}
+    </div>    
+    {% for choice in choice %}
+    
+    <img src="{{choice.choice.url}}"/>
+       
+
+    {% endfor %}
+
+    
